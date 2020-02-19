@@ -124,11 +124,18 @@ body {
         padding-left: 10px;
     }
 
+    .footer-border {
+        margin-bottom: 50px;
+        height: .5px;
+        background-color: black;
+    }
+
     footer {
         background-color: rgb(250,250,250);
         padding: 25px 15px 45px;
     }
 
+ 
     .footer-name {
         float: left;
         color: rgb(74, 74, 74);
@@ -219,10 +226,6 @@ body {
     }
 
 
-    footer {
-        padding: 60px 30px;
-        border-top: solid .5px black;
-    }
 
     .footer-top {
         display: none;
