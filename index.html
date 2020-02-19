@@ -14,9 +14,11 @@
     <header>
         <h1>Student Name</h1>
         <nav>
-            <li>home</li>
-            <li>portfolio</li>
-            <li>contact</li>
+            <ul>
+                <li>home</li>
+                <li>portfolio</li>
+                <li>contact</li>
+            </ul>
         </nav>
         <div class="about clearfix">
             <img src="responsive_layout_v3/images/responsive-layout-profile.png" alt="Profile image of student">
@@ -24,6 +26,7 @@
         </div>
     </header>
 
+    <a name="portfolio"></a>
     <section class="portfolio clearfix">
         <h2>Portfolio</h2>
         <div class="portfolio-examples">
@@ -60,6 +63,7 @@
         </div> 
     </section> 
 
+    <a name="contact"></a>
     <section class="contact">
         <h2>Contact</h2>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
@@ -68,8 +72,16 @@
     </section>
 
     <footer>
-        <span>Student name</span>
-        <a href="#">back to top</a>
+        <div class="footer-name">Student Name</div> 
+        <div class="footer-top">
+            <a href="#">back to top</a>
+        </div>
+            
+        <div class="bottom-nav"> 
+            <a href="#">home</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">contact</a>
+        </div>
     </footer>
 </body>
 
